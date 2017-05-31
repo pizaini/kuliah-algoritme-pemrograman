@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.Separator?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane id="AnchorPane" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8.0.111" xmlns:fx="http://javafx.com/fxml/1" fx:controller="SegitigaSamaSisiController">
+   <children>
+      <Label layoutX="230.0" layoutY="14.0" text="SEGITIGA SAMA SISI" />
+      <Label layoutX="22.0" layoutY="75.0" text="SISI / ALAS" />
+      <Label layoutX="22.0" layoutY="121.0" text="TINGGI" />
+      <Label layoutX="22.0" layoutY="222.0" text="LUAS" />
+      <Separator layoutX="10.0" layoutY="199.0" prefHeight="0.0" prefWidth="581.0" />
+      <Label layoutX="23.0" layoutY="255.0" text="KELILING" />
+      <TextField fx:id="textSisi" layoutX="104.0" layoutY="71.0" />
+      <TextField fx:id="textTinggi" layoutX="104.0" layoutY="117.0" />
+      <Label fx:id="labelLuas" layoutX="104.0" layoutY="222.0" text="..." />
+      <Label fx:id="labelKeliling" layoutX="104.0" layoutY="255.0" text="..." />
+      <Button fx:id="buttonHitung" layoutX="104.0" layoutY="161.0" mnemonicParsing="false" onAction="#hitungLuasDanKeliling" text="HITUNG" />
+   </children>
+</AnchorPane>
