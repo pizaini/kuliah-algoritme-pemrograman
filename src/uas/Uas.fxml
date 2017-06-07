@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.Separator?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane id="AnchorPane" prefHeight="369.0" prefWidth="531.0" xmlns="http://javafx.com/javafx/8.0.111" xmlns:fx="http://javafx.com/fxml/1" fx:controller="uas.UasController">
+    <children>
+        <Button fx:id="buttonCari" layoutX="355.0" layoutY="42.0" onAction="#cariSiswa" text="Cari" />
+      <Label alignment="CENTER" layoutX="8.0" layoutY="14.0" prefHeight="17.0" prefWidth="514.0" text="UAS ALGORITME DAN PEMROGRAMAN" textAlignment="CENTER" />
+      <Label layoutX="64.0" layoutY="46.0" text="Nama Siswa" />
+      <Label layoutX="64.0" layoutY="94.0" text="Bahasa Inggris" />
+      <TextField fx:id="textNamaSiswa" layoutX="201.0" layoutY="42.0" />
+      <Label fx:id="labelBahasaInggris" layoutX="204.0" layoutY="93.0" text="..." />
+      <Separator layoutX="17.0" layoutY="83.0" prefHeight="2.0" prefWidth="497.0" />
+      <Label layoutX="64.0" layoutY="126.0" text="Matematika" />
+      <Label layoutX="64.0" layoutY="160.0" text="IPA" />
+      <Label fx:id="labelIpa" layoutX="200.0" layoutY="159.0" text="..." />
+      <Label fx:id="labelMatematika" layoutX="200.0" layoutY="125.0" text="..." />
+      <Button fx:id="buttonHitung" layoutX="350.0" layoutY="155.0" onAction="#hitung" text="Hitung" />
+      <Separator layoutX="17.0" layoutY="207.0" prefHeight="3.0" prefWidth="497.0" />
+      <Label layoutX="64.0" layoutY="253.0" text="Total" />
+      <Label fx:id="labelTotal" layoutX="200.0" layoutY="252.0" text="..." />
+      <Label layoutX="64.0" layoutY="287.0" text="Rata-Rata" />
+      <Label fx:id="labelRataRata" layoutX="200.0" layoutY="286.0" text="..." />
+      <Label layoutX="64.0" layoutY="318.0" text="Status" />
+      <Label fx:id="labelStatus" layoutX="200.0" layoutY="317.0" text="..." />
+    </children>
+</AnchorPane>
